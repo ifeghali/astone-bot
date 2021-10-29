@@ -12,6 +12,9 @@
     "lint": "eslint --cache .",
     "code-check": "plato -r -x test -d report server/"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "dependencies": {
     "async-polling": "^0.2.1",
     "asyncawait": "^1.0.3",
